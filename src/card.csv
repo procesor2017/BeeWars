@@ -1,4 +1,4 @@
-id, name,hp,mana,gold,soldier,createMana,createSoldier,createGold
-1,zkouska,10,11,12,13,14,15,16
-2,zkouska1,10,11,12,13,14,15,16
-3,zkouska2,10,11,12,13,14,15,16
+id, name,prizeHp,prizeMana,prizeGold,prizeSoldier,createMana,createSoldier,createGold,takeHealth,takeMana,takeGold,takeSoldier
+1,zkouska,10,11,12,13,14,15,16,17,18,19,20
+2,zkouska1,10,11,12,13,14,15,16,17,18,19,20
+3,zkouska2,10,11,12,13,14,15,16,17,18,19,20
