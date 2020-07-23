@@ -14,6 +14,9 @@ public class Arena {
         System.out.println(a);
         player.getResource(a);
         System.out.println(player.hp);
+        System.out.println(a.length);
+        enemy.lostResource(a);
+        System.out.println(enemy.hp);
 
     }
 }

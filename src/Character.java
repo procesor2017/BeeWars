@@ -25,9 +25,9 @@ public class Character {
         // but u want from 9 to 12 {takeHealth,takeMana,takeGold,takeSoldier}
         String[] a = Arrays.copyOfRange(s, 9,13);
         int[] intTakeResource = Arrays.stream(a).mapToInt(Integer::parseInt).toArray();
-        hp -= intTakeResource[9];
-        mana -= intTakeResource[10];
-        gold -= intTakeResource[11];
-        soldier -= intTakeResource[12];
+        hp -= intTakeResource[0];
+        mana -= intTakeResource[1];
+        gold -= intTakeResource[2];
+        soldier -= intTakeResource[3];
     }
 }
