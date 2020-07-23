@@ -5,8 +5,8 @@ public class Arena {
         cardDeck.addCard("1");
         cardDeck.addCard("2");
         System.out.println(cardDeck.cardFinalDeck);
-        int dmg = Integer.parseInt(cardDeck.useCard("1"));
-        System.out.println(character.characterDef(dmg));
-
+        String[] a = cardDeck.useCardFromFinalDeck("1");
+        System.out.println(cardDeck.cardFinalDeck);
+        System.out.println(a);
     }
 }
